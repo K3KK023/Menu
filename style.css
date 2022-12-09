@@ -1,4 +1,12 @@
+html,body{height: 100%;}
 body{background-color: rgb(201, 201, 201);}
+
+
+
+.animate{
+  -webkit-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+}
 
 .header{background-color: rgb(43, 43, 43);}
 .header__logo{color: rgb(255, 255, 255); float:left;display: block;padding: 15px;}
@@ -10,8 +18,36 @@ body{background-color: rgb(201, 201, 201);}
 .header__icon-bar{display: block; float: right; padding: 20px;display: none;}
 .header__icon-bar span{display: block; height:3px; width: 30px; background-color: white; margin-bottom: 5px;}
 
+.cover{height: 70%;
+  background-image: url("https://source.unsplash.com/category/sky");
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-position: center center;
+  position: relative;
+}
 
-
+.cover__filter{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+}
+.cover__caption{
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.cover__caption__copy{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+}
 
 /*-------------------------
 Tablet
