@@ -1,29 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 html,body{height: 400px;}
 body{background-color: rgb(95, 95, 95);}
 
-/*-------------------------
+/*----------
 General
--------------------------*/
+----------*/
 
-
-/*-------------------------
+/*----------
 Header
--------------------------*/
+----------*/
 
-.header{background-color: rgb(0, 0, 0);}
-.header__logo{color: white; display: block; padding: 15px;}
+.header{background-color: black;}
 
 .clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 * html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */  
 
 /*-------------------------
 Boxes
@@ -47,10 +44,10 @@ Tablet
 
 }
 
-
 /*-------------------------
 Smartphone
 -------------------------*/
 @media (max-width: 767px){
+
 
 }
