@@ -18,8 +18,9 @@ h1, h2, h3, h4, h5, p{color: #000;padding-bottom: 30px;}
 /* ! Header */
 
 .header{
+    height: 175px;
     width: 100%;
-    position: fixed;
+    position: fixed, absolute;
     top: 0;
     left: 0;
     padding: 30px;
@@ -31,14 +32,42 @@ h1, h2, h3, h4, h5, p{color: #000;padding-bottom: 30px;}
 .logo{}
 
 
+/* Body */
+
+body{
+    background-color: rgb(35, 35, 35);
+}
 
 
+/* Boxes */
 
+.boxes{
+    border: 1px solid rgb(255, 0, 0);
+    display: block;
+    position: relative;
+    margin: 5%;
+}
 
+.box-0{
+    display: flex;
+}
 
+.box-1{
+    display: flex;
+}
 
+.box-2{
+    display: flex;
+}
 
+.box-3{
+    display: flex;
+}
 
+.inner-img{
+    height: 450px;
+    width: 450px;
+}
 
 
 
