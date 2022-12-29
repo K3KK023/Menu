@@ -23,19 +23,32 @@ h2, h3, h4, h5, p{color: rgb(255, 254, 254);}
     position: fixed, absolute;
     top: 0;
     left: 0;
-    padding: 30px;
+    padding: 18px;
     display: flex;
     justify-content:center;
     background: #000;
 }
 
-.logo{}
+.header img{
+    height: 100%;
+    width: 100%;
+}  
+
+.logo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    margin: -35px;
+    height: 215px;
+    width: 230px;
+}
 
 
 /* Body */
 
 body{
-    background-color: rgb(35,35,35);
+    background-color: rgb(38, 44, 61);
 }
 
 
@@ -92,24 +105,32 @@ body{
 /* ! TESTI */
 
 .txt-0{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 rgb(241, 174, 67), 1px -1px 0 rgb(241, 174, 67), -1px 1px 0 rgb(241, 174, 67), 1px 1px 0 rgb(241, 174, 67);
     position: absolute;
     font-size: xx-large;
     font-weight: bold;
    }
 
 .txt-1{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 rgb(241, 174, 67), 1px -1px 0 rgb(241, 174, 67), -1px 1px 0 rgb(241, 174, 67), 1px 1px 0 rgb(241, 174, 67);
     position: absolute;
     font-size: xx-large;
     font-weight: bold;
    } 
    
 .txt-2{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 rgb(241, 174, 67), 1px -1px 0 rgb(241, 174, 67), -1px 1px 0 rgb(241, 174, 67), 1px 1px 0 rgb(241, 174, 67);
     position: absolute;
     font-size: xx-large;
     font-weight: bold;
    }
 
 .txt-3{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 rgb(241, 174, 67), 1px -1px 0 rgb(241, 174, 67), -1px 1px 0 rgb(241, 174, 67), 1px 1px 0 rgb(241, 174, 67);
     position: absolute;
     font-size: xx-large;
     font-weight: bold;
