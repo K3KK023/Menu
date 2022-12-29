@@ -145,6 +145,21 @@ body{
 
 
 
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: black;
+    color: #fff;
+}   
+
+
+
+
+
+
+
+
 
 
 
