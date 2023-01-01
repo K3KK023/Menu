@@ -150,11 +150,55 @@ body{
    }
 
 
+/* Stile pagine */
+
+
+
+.elenco{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+    background: rgb(24, 28, 39);
+    border-radius: 17px;
+    box-shadow: -1px -1px 0 rgb(134, 0, 16), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(241, 174, 67);
+}
+
+.elementi{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+}
+
+
+.titolo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.price{
+    font-size: medium;
+}
 
 
 
 
 
+
+
+
+
+
+/* Footer */
 
 
 footer{
@@ -162,7 +206,7 @@ footer{
     justify-content: center;
     padding: 15px;
     background: black;
-    color: #fff;
+    margin-top: 100%;
 }   
 
 .img-s{
@@ -190,16 +234,6 @@ footer{
     flex-direction: column;
 }
 
-
-/*
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-border: 1px solid #eee;
-height: 30px;
-width: 30px;
-*/
 
 
 
