@@ -188,10 +188,13 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-shadow: -1px -1px 0 rgb(134, 0, 16), 1px -1px 0 rgb(134, 0, 16), -1px 1px 0 rgb(134, 0, 16), 1px 1px 0 rgb(134, 0, 16);
+
 }
 
 
 .price{
+    color: rgb(241, 174, 67);
     font-size: medium;
 }
 
@@ -207,28 +210,32 @@ body{
 /* Footer */
 
 
-footer{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
+.footer{
+    width: 100%;
     background: black;
-    margin-top: 7%;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10%;
 }   
 
+
 .img-s{
-    color: black;
     display: flex;
-    justify-content:center;
-    margin: 30px;
-    height: 35px;
-    width: 35px;
+    flex-direction: column;
+    position: relative;
+    height: 43px;
+    width: 43px;
 }  
 
 .instagram{
     display: flex;
     position: relative;
-    justify-content: center;
     flex-direction: column;
+    padding: 5px;
 }
 
 
@@ -236,8 +243,8 @@ footer{
 .facebook{
     display: flex;
     position: relative;
-    justify-content: center;
     flex-direction: column;
+    padding: 5px;
 }
 
 
