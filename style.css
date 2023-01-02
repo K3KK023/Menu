@@ -184,7 +184,7 @@ body{
 
 .titolo{
     font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
+    font-size: xx-large;
     margin-top: 15px;
     display: flex;
     justify-content: center;
@@ -232,6 +232,15 @@ body{
     height: 43px;
     width: 43px;
 }  
+
+.img-si{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 45px;
+    width: 45px;
+}  
+
 
 .instagram{
     display: flex;
